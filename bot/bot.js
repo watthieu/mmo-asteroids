@@ -53,11 +53,11 @@ var GRID_SIZE = 60;
 var targetShip;
 
 // Firebase connection stuff
-var firebaseRef = new Firebase("https://mmoasteroids.firebaseio.com");
+var firebaseRef = new Firebase("https://slush-mmo.firebaseio.com");
 var firebaseRefGame = firebaseRef.child('game');
 
 var currentUser = {
-  imageUrl: "https://mmoasteroids.firebaseapp.com/assets/robot.png",
+  imageUrl: "https://slush-mmo.firebaseapp.com/assets/robot.png",
   name: "Bot " + Math.floor(10000 * Math.random()),
 };
 
